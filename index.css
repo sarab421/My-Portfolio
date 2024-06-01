@@ -1,0 +1,155 @@
+#introduction {
+    position: relative;
+   
+    height: 641px;
+    overflow: hidden;
+    padding: 23px 109px;
+    
+}
+#change_color_first_letter{
+    font-size: 45px;
+}
+
+
+
+#introduction::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(/images/my_img_will_go_here.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    filter: brightness(0.4);
+    z-index: -1;
+   
+}
+
+#nav {
+    color: #FEF4E6;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+     margin-bottom: 103px;
+}
+
+#right_side_nav {
+    display: flex;
+   align-items: center;
+    gap: 48px;
+}
+
+
+
+#left_side_nav {
+    
+    height: 28px;
+    font-size: 27px;
+    color: #FFFFFF;
+    /* Fixed hex color syntax */
+}
+
+#change_color_first_letter {
+    color: #DC3635;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0C0C0C;
+}
+
+html {
+    padding: 0;
+    margin: 0;
+}
+#under_nav{
+ width: 550px;
+ display: flex;
+ flex-direction: column;
+gap: 21px;
+}
+
+#under_nav h1 {
+    color: #DC3635;
+}
+
+#under_nav h2, #under_nav h1{
+margin: 0px;
+}
+#under_nav h2,#under_nav div{
+color: #FEF4E6;
+}
+/* #under_nav button{
+    background-color: #DC3635;
+} */
+#btn{
+background-color: #DC3635;
+color: #FEF4E6;
+width: 100px;
+height: 37px;
+border-radius: 8px;
+}
+
+
+
+
+/* Code for About me section */
+
+ul{
+    padding-inline-start: 10px;
+}
+#about_me{
+    display: flex;
+   gap: 200px;
+   justify-content: space-between;
+   padding: 23px 109px;
+   align-items: center;
+   color: #FEF4E6;
+}
+
+
+#left_side_img img{
+    width: 100%;
+    height: 100%;
+}
+#left_side_img{
+    width: 422px;
+    overflow: hidden;
+}
+
+#right_side_about_me{
+    width: 400px;
+}
+#right_side_about_me h2{
+    font-size: 40px;
+    
+}
+
+
+
+
+/* Project Section */
+/* Now i will use centerWhite Class for contact as well */
+.centerWhite{      
+    color: #FEF4E6;
+    text-align: center;
+    padding: 23px 109px;
+}
+
+/* Contact me Section */
+
+#contact_me input{
+    width: 200px;
+    height: 27px;
+    border-radius: 8px;
+}
+.input_button_container{
+    display: flex;
+    margin-top: 23px;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
