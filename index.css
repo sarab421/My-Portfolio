@@ -1,4 +1,4 @@
-/* Existing CSS */
+
 #introduction {
     position: relative;
     height: 641px;
@@ -32,6 +32,10 @@
     margin-bottom: 153px;
 }
 
+#right_side_nav a{
+    color: #FEF4E6;
+    text-decoration: none;
+}
 #right_side_nav {
     display: flex;
     align-items: center;
@@ -225,7 +229,7 @@ ul {
             font-size: 30px;
         }
     #left_side_nav{
-        font-size: 14px;
+        font-size: 17px;
         /* display: none; */
     }
     #nav {
@@ -233,6 +237,7 @@ ul {
         display: flex;
             flex-direction: row;
             margin-bottom: 0px;
+            align-items: center;
     }
 
     #right_side_nav {
@@ -241,6 +246,9 @@ ul {
         flex-direction: row;
         align-items: center;
        
+    }
+    #nav_details{
+                    width: 442px;
     }
 #under_nav h1,#under_nav h2 {
     font-size: 26px;
@@ -275,4 +283,57 @@ ul {
     #footer {
         padding: 10px;
     }
+}
+
+
+@media (max-width: 376px){
+    #introduction{
+        padding: 17px 8px
+    }
+
+#dar_in_nav{
+    display: none;
+}
+
+#nav{
+    height: 38px;
+    align-items: center;
+}
+#nav button{
+    height: 30px;
+}
+#under_nav h2{
+    font-size: 18px;
+}
+#under_nav{
+    gap: 8px;
+}
+#btn_div button{
+    height: 26px;
+}
+#nav_details{
+    font-size: 13px;
+    width: 351px;
+}
+
+}
+
+
+
+@media (max-width: 321px){
+    #left_side_nav{
+        display: none;
+    }
+
+
+ #introduction {
+            padding: 0px 8px;
+     }
+     #nav{
+      margin-bottom: -6px;
+     }
+     #right_side_nav{
+            gap: 21px;
+     }
+
 }
