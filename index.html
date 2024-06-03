@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sarab Dar</title>
     <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
 </head>
 
 <body>
@@ -13,9 +14,12 @@
     <!-- Top introduction section -->
     <div id="introduction">
         <div id="nav">
-            <div id="left_side_nav"> <span id="change_color_first_letter">S</span>ARAB <span id="dar_in_nav">DAR</span>
+            <div id="left_side_nav"> <div><span id="change_color_first_letter">S</span>ARAB <span id="dar_in_nav">DAR</span></div>
+            <div id="whatsapp_btn"><a href="https://wa.me/+923086112359" target="_blank"><button id="btn">Whatsapp
+                        Me</button></a></div>
             </div>
-            <div id="right_side_nav">
+            <button id="menuButton" onclick="showMenubar()">☰</button>
+            <div id="right_side_nav" class="slide_bar">
                 <div><a href="/">Home</a></div>
                 <div>Projects</div>
                 <div><a href="/contact.html">Contact</a></div>
@@ -27,7 +31,7 @@
             <h2>Full Stack Web Developer</h2>
             <div id="nav_details">I specialize in creating dynamic and beautiful web applications. With a passion for coding and a knack
                 for problem-solving, I transform ideas into reality using the latest technologies.</div>
-            <div id="btn_div"><a href="https://wa.me/+923086112359" target="_blank"><button id="btn">Whatsapp
+            <div id="closeIt"><a href="https://wa.me/+923086112359" target="_blank"><button id="btn">Whatsapp
                         Me</button></a></div>
         </div>
     </div>
@@ -98,6 +102,7 @@
         <h3><span>S</span>arab <span>D</span>ar</h3>
         <!-- images of fb,insta, ldin, X goes here -->
     </div>
+   
 </body>
 
 </html>
