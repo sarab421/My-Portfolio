@@ -398,7 +398,7 @@ ul {
 }
 #nav_details{
     font-size: 13px;
-    width: 351px;
+    width: 300px;
 }
 
 }
@@ -408,6 +408,9 @@ ul {
 @media (max-width: 321px){
     #left_side_nav{
         display: none;
+    }
+        #under_nav{
+      width: 300px;
     }
     #right_side_nav{
         margin-left: 35px;
