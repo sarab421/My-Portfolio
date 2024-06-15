@@ -35,6 +35,7 @@ function sendMessage() {
   emailjs.send("service_1sdptov", "template_zhlxtcm", templateParams).then(
     function (response) {
       alert("Email sent successfully!");
+      document.getElementById("contact_me_input").value="";
     },
     function (error) {
       console.error("Failed to send email:", error);
