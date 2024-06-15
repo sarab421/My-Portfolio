@@ -409,6 +409,9 @@ ul {
     #left_side_nav{
         display: none;
     }
+    #right_side_nav{
+        margin-left: 35px;
+    }
 
 
  #introduction {
