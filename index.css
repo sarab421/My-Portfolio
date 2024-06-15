@@ -101,6 +101,9 @@ html {
 ul {
     padding-inline-start: 10px;
 }
+#right_side_about_me ul li{
+    margin: 10px 0px;
+}
 
 #about_me {
     display: flex;
@@ -114,11 +117,13 @@ ul {
 #left_side_img img {
     width: 100%;
     height: 100%;
+
 }
 
 #left_side_img {
     width: 422px;
     overflow: hidden;
+    border-radius: 44px;
 }
 
 #right_side_about_me {
@@ -141,6 +146,7 @@ ul {
 }
 
 /* Contact me Section */
+
 #contact_me input {
     width: 200px;
     height: 27px;
@@ -272,6 +278,7 @@ ul {
     #left_side_img{
         display: none;
     }
+ 
         #right_side_about_me h2{
             text-align: center;
         }

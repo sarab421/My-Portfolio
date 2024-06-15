@@ -19,3 +19,25 @@ let whatsaapButton = document.getElementById("whatsapp_btn");
    
   
 };
+
+function sendMessage() {
+  const email = document.getElementById("contact_me_input").value;
+
+  if (!email) {
+    alert("Please enter an email.");
+    return;
+  }
+
+  const templateParams = {
+    email: email,
+  };
+
+  emailjs.send("service_1sdptov", "template_zhlxtcm", templateParams).then(
+    function (response) {
+      alert("Email sent successfully!");
+    },
+    function (error) {
+      console.error("Failed to send email:", error);
+    }
+  );
+}
