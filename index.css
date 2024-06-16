@@ -10,9 +10,7 @@
 #change_color_first_letter {
     font-size: 45px;
 }
-#whatsapp_btn{
-    display: none;
-}
+
 #introduction::before {
     content: "";
     position: absolute;
@@ -95,6 +93,7 @@ html {
     color: #FEF4E6;
     width: 100px;
     height: 37px;
+    cursor: pointer;
     border-radius: 8px;
 }
 
