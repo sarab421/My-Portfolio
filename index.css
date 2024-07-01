@@ -1,7 +1,7 @@
 
 #introduction {
     position: relative;
-    /* height: 707px; */
+    height: 707px;
     height: 500px;
     overflow: hidden;
     padding: 23px 109px;
@@ -18,7 +18,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    /* background-image: url(/images/my_img_will_go_here.png); */
+    background-image: url(/images/my_img_will_go_here.png);
     background-repeat: no-repeat;
     background-size: cover;
     filter: brightness(0.4);
